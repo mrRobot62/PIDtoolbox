@@ -79,7 +79,7 @@ Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte 
 **ACHTUNG für MAC-User**
 Beim Start von PIDtoolbox wird **kein** Splashscreen angezeigt, das verwirrt den ein oder anderen, sei einfach geduldig. Im Hintergrund wird trotzdem das Programm gestartet und öffnet sich sobald alls fertig geladen ist.
 
-* Brain empfiehlt das Du Logdatein mit einer Auflösung von 2k erstellst, das setzt aber vorauss, dass die LOOP-Rate für Deinen FC entsprechend auch einstellst. Bitte logge nicht über 4k, denn das erhöt deutlich die Verarbeitung der Daten.
+* Brian empfiehlt das Du Logdatein mit einer Auflösung von 2k erstellst, das setzt aber vorauss, dass die LOOP-Rate für Deinen FC entsprechend auch einstellst. Bitte logge nicht über 4k, denn das erhöt deutlich die Verarbeitung der Daten.
 
 Wenn du speziell Spectrogramme erstellen möchtest ist die Empfehlung sowohl die LOOP-Rate als auch die Blackbox-Log-Rate auf 1k zu stellen.
 
@@ -90,7 +90,7 @@ Wenn Du die neuen RPM-Filter in BF 4.x verwendest, dann erkennt PIDtoolbox ab Ve
 
 Eine Liste der möglichen Debug-Modes findest du hier:  **<a href="https://github.com/betaflight/betaflight/wiki/Debug-Modes" target="blank">Betaflight debug modes wiki</a>**.
 
-# Danksagungen (von Brain White)
+# Danksagungen (von Brian White)
 Ich muss einen längst überfälligen Dank für mehrere Personen aussprechen, die außerhalb von GitHub zu diesem Projekt beigetragen haben. 
 
 **Mark Spatz (UAVtech)** ist für mich im Allgemeinen eine riesige Informationsquelle gewesen, und es waren die Gespräche mit ihm, die die Entwicklung dieses Tools überhaupt erst motiviert haben. 

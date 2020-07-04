@@ -1,13 +1,28 @@
 # GERMAN translation fork from PIDtoolbox
 --------------------------------------------------------------------
 
+Diese Deutsche Anleitung von PIDToolbox ist entstanden um Interessierten - nicht native-English-Speaker Menschen - auf relativ einfacher weise, die teileweise komplexen Zusammenhänge der unterschiedlichen Filter und Auswertungsmöglichkeiten Deiner Blackbox-Logdatei mit diesem Programm zu ermöglichen.
 
+Die Übersetzung der englischsprachigen WIKI-Seite ist nicht 1:1 und beschreibt an einigen Stellen zusätzliche Dinge, die hoffentlich das Verständnis für die Zusammenhänge innerhalb der großen Datenmengen besser zu verstehen.
 
-# PIDtoolbox
+Wenn Ihr Fragen/Verbesserungsvorschläge oder anderes habt, dann schreibt einen Kommentar.
 
-PIDtoolbox is a set of graphical tools for analyzing blackbox log data for multirotors. It is available as a standalone program for both Windows and Mac, and is tailored to work for Betaflight and INAV logfiles, but should also run EMU flight logfiles. Although PIDtoolbox is designed for the person who likes to tinker and get the best performance possible out of their miniquad, it should be relatively straightforward for those new to the hobby as well, and there is a detailed **<a href="https://github.com/bw1129/PIDtoolbox/wiki/PIDtoolbox-user-guide" target="blank">Wiki page</a>** to help.
+Dieses Wiki ist in Absprache mit dem Owner von PIDToolBox Brain White entstanden.
+
+Wir wünschen Euch viel Spass mit Eurem Copter, den hunderten von Möglichkeiten das Flugverhalten zu studieren, zu verbessern und die Zusammenhänge zu verstehen.
+
+Cheers
+Bernd (alias LunaX) und Brain
+
+# PIDToolbox - Intro
+PIDtoolbox ist ein Tool zur graphischen Analyse  von Blackbox-Logdaten für FPV-Copter. 
+Entwickelt wurde dieses eigentständige Programm zur Auswertung von Betaflight und INAV-Logdateien und ist  lauffähig unter MAC OS und Windows. 
+
+PIDToolBox ist für FPV-Hobby Piloten die gerne herumbasteln und die bestmögliche Leistung aus seinem Copter herausholen möchten. Das Programm sollte aber auch für diejenigen, die neu in diesem Hobby sind, relativ einfach zu bedienen sein und es gibt ein detailliertes **<a href="https://github.com/bw1129/PIDtoolbox/wiki/PIDtoolbox-user-guide" target="blank">Wiki-Seite</a>**, was Dir dabei hilft die Auswertungen besser zu verstehen.
 
 ![](images/PIDtoolbox_v0.32.png)
+
+
 
 The motivation for the development of this tool was to create a user-friendly GUI for analyzing blackbox data, using a high-level language with simple plotting and visualization tools that are more accessible to a larger part of the FPV community. A second goal was to develop an objective method for comparing between flights. It was inspired by the way we often troubleshoot flight performance issues (e.g., vibrations, mid-throttle oscillation, propwash), where we make back to back test flights with slight changes in software/hardware/mechanical settings with each test, and then make subjective inferences about flight performance. The problem is subjective bias becomes a real issue when the differences between tests are subtle. PIDtoolbox was designed with this in mind. Below is everything you need to begin using PIDtoolbox.
 

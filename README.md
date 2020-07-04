@@ -59,9 +59,9 @@ Das **`PIDtoolbox`** Findest du unter  **`PIDtoolbox\main\`**. Der Inhalt des **
 * Wenn Du MATLab installiert hast und alle notwendigen Tools ebenfalls verfügbar sind, dann kannst du einfach den Sourcecode als ZIP herunterladen ( **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">releases</a>** herunterladen. Dies beinhaltet die aktuellesten Versionsstände von PID-Toolbox und kann aus dem Terminal heraus gestartet werden. 
 
 ### Disclaimer
-Im Prinzip ist es kein Problem wenn meine Logdateien irgendwo auf meinem Computer liegen, hauptsache das blackbox_decode Programm ist im gleichen Ordner enthalten.
+Im Prinzip ist es kein Problem wenn Deine Logdateien irgendwo auf Deinem Computer liegen, hauptsache das blackbox_decode Programm ist im gleichen Ordner enthalten.
 
-Im interesse davon, dass weniger **Issues** gemeldet werden, bitten wir Euch, immer daran zu denken. "An dem Platz wo Deine Logdateien liegen - muss auch blackbox_decode liegen"
+Im Interesse davon, dass weniger **Issues** gemeldet werden, bitten wir Euch, immer daran zu denken. **`An dem Platz wo Deine Logdateien liegen - muss auch blackbox_decode liegen`**
 
 
 # Quick Guide

@@ -1,7 +1,7 @@
 # GERMAN translation fork from PIDtoolbox
 --------------------------------------------------------------------
 
-## BAUSTELLE'
+## BAUSTELLE
 Diese deutsche Übersetzung von PIDToolbox befindet sich im Aufbau und ist noch nicht vollständig übersetzt und erweitert. Daher bitte etwas Geduld
 
 
@@ -58,7 +58,7 @@ Das **`PIDtoolbox`** Findest du unter  **`PIDtoolbox\main\`**. Der Inhalt des **
 
 * Wenn Du MATLab installiert hast und alle notwendigen Tools ebenfalls verfügbar sind, dann kannst du einfach den Sourcecode als ZIP herunterladen ( **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">releases</a>** herunterladen. Dies beinhaltet die aktuellesten Versionsstände von PID-Toolbox und kann aus dem Terminal heraus gestartet werden. 
 
-### Disclaimer*
+### Disclaimer
 Im Prinzip ist es kein Problem wenn meine Logdateien irgendwo auf meinem Computer liegen, hauptsache das blackbox_decode Programm ist im gleichen Ordner enthalten.
 
 Im interesse davon, dass weniger **Issues** gemeldet werden, bitten wir Euch, immer daran zu denken. "An dem Platz wo Deine Logdateien liegen - muss auch blackbox_decode liegen"
@@ -66,26 +66,35 @@ Im interesse davon, dass weniger **Issues** gemeldet werden, bitten wir Euch, im
 
 # Quick Guide
 
-For a detailed guide to PIDtoolbox, please visit the **<a href="https://github.com/bw1129/PIDtoolbox/wiki/PIDtoolbox-user-guide" target="blank">PIDtoolbox Wiki page</a>**.
+Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte unser WIKI an **<a href="https://github.com/bw1129/PIDtoolbox/wiki/PIDtoolbox-user-guide" target="blank">PIDtoolbox Wiki page</a>**.
 
-For a quick guide, follow the steps below:
+## Schnellstart
 
-**(i)** **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">PIDtoolbox</a>** (versions 0.2 onward) reads **`.bbl`** or **`.bfl`** files directly by decoding them using **`blackbox_decode`** <a href="https://github.com/betaflight/blackbox-tools" target="blank">(Betaflight/Cleanflight Blackbox Tools)</a>, which is conveniently packaged within the PIDtoolbox download (earlier versions required users to convert **`.bbl`** or **`.bfl`** files into **`.csv`** files). Just place your **`.bbl`** or **`.bfl`** files right in the main folder where the **`PIDtoolbox`** and **`blackbox_decode`** program files are already located. As stated earlier, the contents of this folder should not be moved. Start the program, select the file(s) you wish to load by clicking the **`select file`** button, then click **`load+run`**. NOTE: the Mac version does not show a "splash screen" when you run the program (an issue with Matlab for Mac), so it may seem like nothing is happening, but please be patient while it to loads.
+* **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">PIDtoolbox</a>** (versions 0.2 onward) liest **`.bbl`** oder **`.bfl`** Logdateien direkt und dekodiert diese mittlens **`blackbox_decode`** <a href="https://github.com/betaflight/blackbox-tools" target="blank">(Betaflight/Cleanflight Blackbox Tools) und convertiert diese in **`.csv`** Dateien. Kopiere immer **`blackbox_decode`** in den gleichen Ordner indem auch Deine Logdateien liegen.
 
-**(ii)** It is recommended to log at 2k (unless you're running 1k loop rate in which case log at 1k), because the spectrograms only go to 1k. It is not recommended to log higher than 4k. It'll run, but much slower.
+* Starte nun **PIDtoolbox** und lade eine (A) oder zwei (A+B) Logdateien über die Buttons **`select file`** und klicken anschließend auf den Button **`load+run`**
 
-**(iii)** It is recommended that you set debug mode to **`GYRO_SCALED`** for PIDtoolbox. This is because the program expects the debug variables to contain the unfiltered gyro data, which is used to plot the filtered vs unfiltered gyro spectrograms, and compute gyro phase latency online. If you are using RPM filter in BF4.0, PIDtoolbox v0.2+ will recognize if you have debug mode set to **`DSHOT_RPM_TELEMETRY`**, and will plot RPM data along with motor signals in the Log Viewer. Just be aware that the debug mode you choose will result in different data contained in the 'gyro unfiltered' variable. For a list of debug modes and the data contained in the debug variable, see the **<a href="https://github.com/betaflight/betaflight/wiki/Debug-Modes" target="blank">Betaflight debug modes wiki</a>**.
+**ACHTUNG für MAC-User**
+Beim Start von PIDtoolbox wird **kein** Splashscreen angezeigt, das verwirrt den ein oder anderen, sei einfach geduldig. Im Hintergrund wird trotzdem das Programm gestartet und öffnet sich sobald alls fertig geladen ist.
 
-If you have issues installing Matlab runtime, or running PIDtoolbox, please post **<a href="https://github.com/bw1129/PIDtoolbox/issues" target="blank">feedback here</a>**, or post a response in the **<a href="https://www.facebook.com/groups/291745494678694/?ref=bookmarks" target="blank">Betaflight BlackBox Log Review Facebook group</a>**, or **<a href="https://www.facebook.com/groups/INAVOfficial/?ref=bookmarks" target="blank">INAV official Facebook group</a>** for INAV specific issues.
+* Brain empfiehlt das Du Logdatein mit einer Auflösung von 2k erstellst, das setzt aber vorauss, dass die LOOP-Rate für Deinen FC entsprechend auch einstellst. Bitte logge nicht über 4k, denn das erhöt deutlich die Verarbeitung der Daten.
 
-# Acknowledgments
+Wenn du speziell Spectrogramme erstellen möchtest ist die Empfehlung sowohl die LOOP-Rate als auch die Blackbox-Log-Rate auf 1k zu stellen.
 
-I have to give a long overdue shoutout to several people who contributed to this project outside GitHub. 
-**Mark Spatz (UAVtech)** has been a huge source of information for me in general and it was through conversations with him that motivated the development of this tool in the first place. 
-**Chris Thompson (ctzsnooze)** has always supported the project and continues to contribute great ideas that are continually integrated into various revisions of the tools.
-**DusKing** converted the tooltips to Simplified Chinese language, and maintained and compiled this version for Chinese users. 
-Many others have contributed thoughts and ideas that worked there way into various versions of the software, some of whom I only know by their Slack or Github name: **Qopter, Qratz, Zach Young, Zak Smiley, Stephen Wright, McGiverGim, Bizmar, Martin Hapl, Ken Kammerer, Paweł Spychalski**. I will continue to update this list. Thanks for your help!
+* Um allgemeine Blackbox-Auswertungen zu erstellen, konfiguriere in bitte so, dass der Debug-Mode **`GYRO_SCALED`** ausgewählt ist. Dieser Debug-Mode enthält auch die ungefilterten GYRO-Daten die für die graphische Auswertung "gefiltert vs. ungefiltert" notwendig sind (Spektrogramme).
+Wenn Du die neuen RPM-Filter in BF 4.x verwendest, dann erkennt PIDtoolbox ab Version > 0.2 den Debug-Mode **`DSHOT_PRM_TELEMETRY`** und erzeugt Graphen bezogen auf RPM-Daten bezogen auf die Motor Signale.
 
- I hope you find PIDtoolbox useful, and I welcome feedback from the FPV community.
+**`bitte beachte`**, jenachdem welchen Debug-Mode du für Deine Logdatei eingestellt hast, dementsprechend werden auch unterschiedliche Logdaten erzeugt und angezeigt und entsprechend in der Variablen "gyro unfiltered" angezeigt.
 
+Eine Liste der möglichen Debug-Modes findest du hier:  **<a href="https://github.com/betaflight/betaflight/wiki/Debug-Modes" target="blank">Betaflight debug modes wiki</a>**.
+
+# Danksagungen (von Brain White)
+Ich muss einen längst überfälligen Dank für mehrere Personen aussprechen, die außerhalb von GitHub zu diesem Projekt beigetragen haben. 
+**Mark Spatz (UAVtech)** ist für mich im Allgemeinen eine riesige Informationsquelle gewesen, und es waren die Gespräche mit ihm, die die Entwicklung dieses Tools überhaupt erst motiviert haben. 
+**Chris Thompson (ctzsnooze)** hat das Projekt immer unterstützt und bringt weiterhin großartige Ideen ein, die kontinuierlich in verschiedene Revisionen der Tools integriert werden.
+**DusKing** konvertierte die Tooltips in vereinfachtes Chinesisch und pflegte und kompilierte diese Version für chinesische Benutzer. 
+Viele andere haben Gedanken und Ideen beigesteuert, die auf diese Weise in verschiedene Versionen der Software eingeflossen sind, von denen ich einige nur unter ihrem Namen Slack oder Github kenne: **Qopter, Qratz, Zach Young, Zak Smiley, Stephen Wright, McGiverGim, Bizmar, Martin Hapl, Ken Kammerer, Paweł Spychalski**. Ich werde diese Liste weiter aktualisieren. Vielen Dank für Ihre Hilfe!
+
+Ich hoffe Du findest PIDtoolbox nützlich und ich freue mich über ein Feedback aus der FPV-Community
 Cheers! -Brian
+

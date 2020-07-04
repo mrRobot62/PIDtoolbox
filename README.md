@@ -72,7 +72,7 @@ Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte 
 
 ## Schnellstart
 
-* **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">PIDtoolbox</a>** (versions 0.2 onward) liest **`.bbl`** oder **`.bfl`** Logdateien direkt und dekodiert diese mittlens **`blackbox_decode`** <a href="https://github.com/betaflight/blackbox-tools" target="blank">(Betaflight/Cleanflight Blackbox Tools) <\a> und konvertiert diese in **`.csv`** Dateien. Kopiere immer **`blackbox_decode`** in den gleichen Ordner indem auch Deine Logdateien liegen.
+* **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">PIDtoolbox</a>** (versions 0.2 onward) liest **`.bbl`** oder **`.bfl`** Logdateien direkt und dekodiert diese mittlens **`blackbox_decode`** <a href="https://github.com/betaflight/blackbox-tools" target="blank">(Betaflight/Cleanflight Blackbox Tools)</a> und konvertiert diese in **`.csv`** Dateien. Kopiere immer **`blackbox_decode`** in den gleichen Ordner indem auch Deine Logdateien liegen.
 
 * Starte nun **PIDtoolbox** und lade eine (A) oder zwei (A+B) Logdateien über die Buttons **`select file`** und klicken anschließend auf den Button **`load+run`**
 

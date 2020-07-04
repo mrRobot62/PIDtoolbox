@@ -92,10 +92,16 @@ Eine Liste der möglichen Debug-Modes findest du hier:  **<a href="https://githu
 
 # Danksagungen (von Brain White)
 Ich muss einen längst überfälligen Dank für mehrere Personen aussprechen, die außerhalb von GitHub zu diesem Projekt beigetragen haben. 
+
 **Mark Spatz (UAVtech)** ist für mich im Allgemeinen eine riesige Informationsquelle gewesen, und es waren die Gespräche mit ihm, die die Entwicklung dieses Tools überhaupt erst motiviert haben. 
+
 **Chris Thompson (ctzsnooze)** hat das Projekt immer unterstützt und bringt weiterhin großartige Ideen ein, die kontinuierlich in verschiedene Revisionen der Tools integriert werden.
+
 **DusKing** konvertierte die Tooltips in vereinfachtes Chinesisch und pflegte und kompilierte diese Version für chinesische Benutzer. 
-Viele andere haben Gedanken und Ideen beigesteuert, die auf diese Weise in verschiedene Versionen der Software eingeflossen sind, von denen ich einige nur unter ihrem Namen Slack oder Github kenne: **Qopter, Qratz, Zach Young, Zak Smiley, Stephen Wright, McGiverGim, Bizmar, Martin Hapl, Ken Kammerer, Paweł Spychalski**. Ich werde diese Liste weiter aktualisieren. Vielen Dank für Ihre Hilfe!
+
+Viele andere haben Gedanken und Ideen beigesteuert, die auf diese Weise in verschiedene Versionen der Software eingeflossen sind, von denen ich einige nur unter ihrem Namen Slack oder Github kenne: **Qopter, Qratz, Zach Young, Zak Smiley, Stephen Wright, McGiverGim, Bizmar, Martin Hapl, Ken Kammerer, Paweł Spychalski**. Ich werde diese Liste weiter aktualisieren. 
+
+Vielen Dank für Ihre Hilfe!
 
 Ich hoffe Du findest PIDtoolbox nützlich und ich freue mich über ein Feedback aus der FPV-Community
 Cheers! -Brian

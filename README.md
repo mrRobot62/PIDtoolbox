@@ -99,7 +99,11 @@ Ich muss einen längst überfälligen Dank für mehrere Personen aussprechen, di
 
 **DusKing** konvertierte die Tooltips in vereinfachtes Chinesisch und pflegte und kompilierte diese Version für chinesische Benutzer. 
 
-Viele andere haben Gedanken und Ideen beigesteuert, die auf diese Weise in verschiedene Versionen der Software eingeflossen sind, von denen ich einige nur unter ihrem Namen Slack oder Github kenne: **Qopter, Qratz, Zach Young, Zak Smiley, Stephen Wright, McGiverGim, Bizmar, Martin Hapl, Ken Kammerer, Paweł Spychalski**. Ich werde diese Liste weiter aktualisieren. 
+Viele andere haben Gedanken und Ideen beigesteuert, die auf diese Weise in verschiedene Versionen der Software eingeflossen sind, von denen ich einige nur unter ihrem Namen Slack oder Github kenne: 
+
+**Qopter, Qratz, Zach Young, Zak Smiley, Stephen Wright, McGiverGim, Bizmar, Martin Hapl, Ken Kammerer, Paweł Spychalski**. 
+
+Ich werde diese Liste weiter aktualisieren. 
 
 Vielen Dank für Ihre Hilfe!
 

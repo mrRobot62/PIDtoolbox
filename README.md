@@ -61,16 +61,18 @@ Das **`PIDtoolbox`** Findest du unter  **`PIDtoolbox\main\`**. Der Inhalt des **
 ### Disclaimer
 Im Prinzip ist es kein Problem wenn Deine Logdateien irgendwo auf Deinem Computer liegen, hauptsache das blackbox_decode Programm ist im gleichen Ordner enthalten.
 
-Im Interesse davon, dass weniger **Issues** gemeldet werden, bitten wir Euch, immer daran zu denken. **`An dem Platz wo Deine Logdateien liegen - muss auch blackbox_decode liegen`**
+Im Interesse davon, dass weniger **Issues** gemeldet werden, bitten wir Euch, immer daran zu denken. 
+**`An dem Platz wo Deine Logdateien liegen - muss auch blackbox_decode liegen`**
 
 
 # Quick Guide
 
-Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte unser WIKI an **<a href="https://github.com/bw1129/PIDtoolbox/wiki/PIDtoolbox-user-guide" target="blank">PIDtoolbox Wiki page</a>**.
+Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte unser WIKI an
+**<a href="https://github.com/bw1129/PIDtoolbox/wiki/PIDtoolbox-user-guide" target="blank">PIDtoolbox Wiki page</a>**.
 
 ## Schnellstart
 
-* **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">PIDtoolbox</a>** (versions 0.2 onward) liest **`.bbl`** oder **`.bfl`** Logdateien direkt und dekodiert diese mittlens **`blackbox_decode`** <a href="https://github.com/betaflight/blackbox-tools" target="blank">(Betaflight/Cleanflight Blackbox Tools) und convertiert diese in **`.csv`** Dateien. Kopiere immer **`blackbox_decode`** in den gleichen Ordner indem auch Deine Logdateien liegen.
+* **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">PIDtoolbox</a>** (versions 0.2 onward) liest **`.bbl`** oder **`.bfl`** Logdateien direkt und dekodiert diese mittlens **`blackbox_decode`** <a href="https://github.com/betaflight/blackbox-tools" target="blank">(Betaflight/Cleanflight Blackbox Tools) <\a> und konvertiert diese in **`.csv`** Dateien. Kopiere immer **`blackbox_decode`** in den gleichen Ordner indem auch Deine Logdateien liegen.
 
 * Starte nun **PIDtoolbox** und lade eine (A) oder zwei (A+B) Logdateien über die Buttons **`select file`** und klicken anschließend auf den Button **`load+run`**
 

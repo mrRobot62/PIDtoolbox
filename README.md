@@ -87,9 +87,9 @@ Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte 
 **ACHTUNG für MAC-User**
 Beim Start von PIDtoolbox wird **kein** Splashscreen angezeigt, das verwirrt den ein oder anderen, sei einfach geduldig. Im Hintergrund wird trotzdem das Programm gestartet und öffnet sich sobald alls fertig geladen ist.
 
-* Brian empfiehlt das Du Logdatein mit einer Auflösung von 2k erstellst, das setzt aber vorauss, dass die LOOP-Rate für Deinen FC entsprechend auch einstellst. Bitte logge nicht über 4k, denn das erhöt deutlich die Verarbeitung der Daten.
+* Brian empfiehlt das Du Logdatein mit einer Auflösung von 2k erstellst, das setzt aber vorauss, dass die LOOP-Rate für Deinen FC entsprechend auch einstellst. Bitte logge nicht über 4k, denn das erhöht deutlich die Verarbeitung der Daten.
 
-Wenn du speziell Spectrogramme erstellen möchtest ist die Empfehlung sowohl die LOOP-Rate als auch die Blackbox-Log-Rate auf 1k zu stellen.
+Hast Du (z.B. Hardwarebedingt) eine PID-Looprate von 1k, dann musst du auch in 1k die Logdateien erzeugen.
 
 * Um allgemeine Blackbox-Auswertungen zu erstellen, konfiguriere in bitte so, dass der Debug-Mode **`GYRO_SCALED`** ausgewählt ist. Dieser Debug-Mode enthält auch die ungefilterten GYRO-Daten die für die graphische Auswertung "gefiltert vs. ungefiltert" notwendig sind (Spektrogramme).
 Wenn Du die neuen RPM-Filter in BF 4.x verwendest, dann erkennt PIDtoolbox ab Version > 0.2 den Debug-Mode **`DSHOT_PRM_TELEMETRY`** und erzeugt Graphen bezogen auf RPM-Daten bezogen auf die Motor Signale.

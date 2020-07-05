@@ -74,7 +74,7 @@ Im Interesse davon, dass weniger **Issues** gemeldet werden, bitten wir Euch, im
 # Quick Guide
 
 Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte unser WIKI an
-**<a href="https://github.com/bw1129/PIDtoolbox/wiki/PIDtoolbox-user-guide" target="blank">PIDtoolbox Wiki page</a>**.
+**<a href="https://github.com/mrRobot62/PIDtoolbox/wiki" target="blank">PIDtoolbox Wiki page</a>**.
 
 ## Schnellstart
 

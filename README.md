@@ -81,6 +81,8 @@ Für detaillierte Informationen und tiefergehende Informationen schau Dir bitte 
 * **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">PIDtoolbox</a>** (versions 0.2 onward) liest **`.bbl`** oder **`.bfl`** Logdateien direkt und dekodiert diese mittels **`blackbox_decode`** <a href="https://github.com/betaflight/blackbox-tools" target="blank">(Betaflight/Cleanflight Blackbox Tools)</a> und konvertiert diese in **`.csv`** Dateien. Kopiere immer **`blackbox_decode`** in den gleichen Ordner indem auch Deine Logdateien liegen.
 
 * Starte nun **PIDtoolbox** und lade eine Logdatei (A) oder zwei Logdateien (A+B) über die Buttons **`select file (A) oder select file(B)`** und klicke anschließend auf den Button **`load+run`**
+![](images/de_img/Control-Panel_Files.png)
+
 
 **ACHTUNG für MAC-User**
 Beim Start von PIDtoolbox wird **kein** Splashscreen angezeigt, das verwirrt den ein oder anderen, sei einfach geduldig. Im Hintergrund wird trotzdem das Programm gestartet und öffnet sich sobald alls fertig geladen ist.

@@ -64,6 +64,8 @@ rund um INAV kannst Du unter **<a href="https://www.facebook.com/groups/INAVOffi
 
 * Wenn Du MATLab installiert hast und alle notwendigen Tools ebenfalls verfügbar sind, dann kannst du einfach den Sourcecode als ZIP herunterladen ( **<a href="https://github.com/bw1129/PIDtoolbox/releases" target="blank">releases</a>** herunterladen. Dies beinhaltet die aktuellesten Versionsstände von PID-Toolbox und kann aus dem Terminal heraus gestartet werden (Für MATLab Kenner ;-) )
 
+**UPDATE 12-08-2020**: Windows-Nutzer haben mitgeteilt, dass sowohl die **`PIDToolbox.exe`** als auch **`blackbox_decode.exe`** im **GLEICHEN** Ordner liegen müssen, wie das zu ladende Logfile(s). Das ist ein Unterschied zum Mac, dort muss lediglich **`blackbox_decode`** im Ordner der zu ladendenden Logfiles liegen.
+
 ### Disclaimer
 Im Prinzip ist es kein Problem wenn Deine Logdateien irgendwo in einem Verzeichnis auf Deinem Computer liegen, hauptsache das **`blackbox_decode`** Programm ist im gleichen Ordner.
 
